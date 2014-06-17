@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Hello!"
-        android:textColor="#222"
+        android:text="@string/hello_world"
+        android:textColor="@color/activity_main_hello_text_view"
         android:textSize="36sp" />
 
 </FrameLayout>

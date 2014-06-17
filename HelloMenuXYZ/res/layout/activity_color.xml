@@ -3,18 +3,15 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.rosehulman.boutell.menuabc.ColorActivity" 
-    android:background="#222"
-    >
+    android:background="@color/activity_color_background"
+    tools:context="edu.rosehulman.boutell.menuabc.ColorActivity" >
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I have color!"
-        android:textSize="36sp" 
-        android:textColor="#eee"
         android:layout_gravity="center"
-        />
-    
+        android:text="@string/activity_color_text_view"
+        android:textColor="@color/activity_color_text"
+        android:textSize="36sp" />
+
 </FrameLayout>
