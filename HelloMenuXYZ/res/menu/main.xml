@@ -11,6 +11,6 @@
         android:id="@+id/help"
         android:icon="@drawable/ic_action_help"
         android:showAsAction="ifRoom"
-        android:title="@string/menu_title_help"/>
+        android:title="@string/menu_main_help"/>
 
 </menu>
